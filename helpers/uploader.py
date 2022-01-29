@@ -30,9 +30,9 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 ),
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Developer - @Happyboy59", url="https://t.me/Happyboy59")],
-                        [InlineKeyboardButton("HB4All", url="https://t.me/HB4All"),
-                         InlineKeyboardButton("HB4All_Bot", url="https://t.me/HB4All_Bot")]
+                        [InlineKeyboardButton("💥 HB4All 💥", url="https://t.me/Hb4all")],
+                        [InlineKeyboardButton("❤️ HB4All Support ❤️", url="https://t.me/HB4All_support"),
+                         InlineKeyboardButton("🤖 HB4All_Bot 🤖", url="https://t.me/HB4All_Bot")]
                     ]
                 )
             )
@@ -51,9 +51,9 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 ),
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Developer - @Happyboy59", url="https://t.me/happyboy59")],
-                        [InlineKeyboardButton("HB4All", url="https://t.me/hb4all"),
-                         InlineKeyboardButton("HB4All Bot", url="https://t.me/hb4all_bot")]
+                        [InlineKeyboardButton("💥 HB4All 💥", url="https://t.me/hb4all")],
+                        [InlineKeyboardButton("❤️ HB4All Support ❤️", url="https://t.me/hb4all_support"),
+                         InlineKeyboardButton("🤖 HB4All Bot 🤖", url="https://t.me/hb4all_bot")]
                     ]
                 )
             )
