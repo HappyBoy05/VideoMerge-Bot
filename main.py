@@ -56,9 +56,9 @@ async def start_handler(bot: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Developer - @Happyboy59", url="https://t.me/HappyBoy59")],
-                [InlineKeyboardButton("HB4All", url="https://t.me/HB4All"),
-                 InlineKeyboardButton("HB4All Bot", url="https://t.me/HB4All_Bot")],
+                [InlineKeyboardButton("💥 HB4All 💥", url="https://t.me/Hb4all")],
+                [InlineKeyboardButton("❤️ HB4All Support❤️", url="https://t.me/HB4All_Support"),
+                 InlineKeyboardButton("🤖 HB4All Bot 🤖", url="https://t.me/HB4All_Bot")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
                 [InlineKeyboardButton("Close", callback_data="closeMeh")]
             ]
