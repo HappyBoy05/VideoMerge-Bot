@@ -355,7 +355,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 return
             except Exception:
                 await cb.message.edit(
-                    text="Something went Wrong. Contact Us[Report](https://t.me/hb4all1_bot).",
+                    text="Something went Wrong. Contact Us[Report](https://t.me/hb4all_support).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -363,7 +363,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         await cb.message.edit(
             text=Config.START_TEXT,
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer - @HappyBoy59", url="https://t.me/Happyboy59"), InlineKeyboardButton("HB4All", url="https://t.me/hb4all")], [InlineKeyboardButton("HB4All Bot", url="https://t.me/HB4All_Bot")]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💥 HB4All 💥", url="https://t.me/HB4All"), InlineKeyboardButton("❤️ HB4All ❤️", url="https://t.me/hb4all_Support")], [InlineKeyboardButton(" 🤖 HB4All Bot 🤖", url="https://t.me/HB4All_Bot")]]),
             disable_web_page_preview=True
         )
     elif "showThumbnail" in cb.data:
